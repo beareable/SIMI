@@ -1,0 +1,17 @@
+
+body{
+    margin: 0;
+}
+.login-container {
+    background: #141A48;
+    margin: 0px;
+    overflow: hidden;
+    height: 100vh;
+}
+.login-form{
+    padding:20px;
+    color:#000;
+    position: absolute;
+    top: 30%;
+}
+

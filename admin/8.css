@@ -1,0 +1,71 @@
+
+.ui_msg {
+    left: 50%;
+    text-align: center;
+    margin-top: 10%;
+    text-align: center;
+	color:#000;
+}
+.ui_msg .ui_icon_area {
+    margin-bottom: 2px;
+}
+.iconfont, em, i {
+    font-style: normal;
+}
+.ui_msg .ui_icon_area img {
+    width: 100px;
+    height: 100px;
+}
+img {
+    border: 0;
+    vertical-align: middle;
+    max-width: 100%;
+}
+.ui_msg .ui_text_area .ui_msg_title {
+    margin-bottom: 15px;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+
+.log-textarea textarea{
+	width:100%;
+	background-color:#FFF;
+	color:#222;
+	font-family:Courier, monospace;
+	font-weight:normal;
+	font-size:14px;
+	line-height:40px;
+	background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAoCAYAAADHVmuAAAAAJ0lEQVQ4jWP8//8/AzGAiShVowpHFY4qHFU4qnBkKGQxmcXQToxCAFoNBKSFyZ3xAAAAAElFTkSuQmCC);
+	background-color: #F6F7FB;
+	background-repeat:repeat, repeat;
+	-webkit-border-radius:12px;
+	border-radius:12px;
+	-webkit-box-shadow: 0px 1px 4px #909399;
+	box-shadow: 0px 1px 4px #909399;
+	border-top:1px solid #FFF;
+	border-bottom:1px solid #FFF;
+	overflow: auto; 
+	word-wrap: break-word;
+}
+.log-textarea1 textarea{
+	width:100%;
+	background-color:#FFF;
+	color:#222;
+	font-family:Courier, monospace;
+	font-weight:normal;
+	font-size:14px;
+	line-height:40px;
+	padding-left:100px;
+	background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAACAAAAAAoCAYAAABqtxoMAAACNUlEQVR4nO3aQUrDQBiG4T89QsGTeBvpGboUb6C4dOdeerlCj9Bxk0UYOi2iEvx8HhiSmZDMLLN4p9Za8btOd7uqqqd5+rI9fqx4GgAAAAAAAAASbdY+AAAAAAAAAADwfQIAAAAAAAAAAAggAAAAAAAAAACAAAIAAAAAAAAAAAggAAAAAAAAAACAAAIAAAAAAAAAAAggAAAAAAAAAACAAAIAAAAAAAAAAAggAAAAAAAAAACAAAIAAAAAAAAAAAggAAAAAAAAAACAAAIAAAAAAAAAAAggAAAAAAAAAACAAAIAAAAAAAAAAAggAAAAAAAAAACAAAIAAAAAAAAAAAggAAAAAAAAAACAAAIAAAAAAAAAAAggAAAAAAAAAACAAAIAAAAAAAAAAAggAAAAAAAAAACAAAIAAAAAAAAAAAggAAAAAAAAAACAAAIAAAAAAAAAAAggAAAAAAAAAACAAAIAAAAAAAAAAAggAAAAAAAAAACAAAIAAAAAAAAAAAggAAAAAAAAAACAAAIAAAAAAAAAAAggAAAAAAAAAACAAAIAAAAAAAAAAAggAAAAAAAAAACAAAIAAAAAAAAAAAggAAAAAAAAAACAAAIAAAAAAAAAAAggAAAAAAAAAACAAAIAAAAAAAAAAAgw3b+357UP8R8cXvdVVfXw+LbySQAAAACAP2Sax2YeU7dW3dryvZE2mC+vt9auPe/36PcDAPiqS/85l66j+2tro++PjP6DluPc3Z9vfPPHfAK80SeevHt+WwAAAABJRU5ErkJggg==);
+	background-repeat:repeat-y, repeat;
+	-webkit-border-radius:12px;
+	border-radius:12px;
+	-webkit-box-shadow: 0px 1px 4px #909399;
+	box-shadow: 0px 1px 4px #909399;
+	border-top:1px solid #FFF;
+	border-bottom:1px solid #FFF;
+	overflow: auto; 
+	word-wrap: break-word;
+}
+

@@ -1,0 +1,233 @@
+/*====================================== Base =====================================*/
+* {
+  box-sizing: border-box; 
+}
+
+body{
+  font-family: "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", SimSun, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #606266;
+  background-color: #E5E9F2;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+  overflow-y: auto;
+  margin: 0px;
+  padding: 0px;
+}
+
+html {
+  height: 100%; }
+
+body {
+  position: relative;
+  height: 100%; }
+
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td {
+  margin: 0;
+  padding: 0; }
+
+table {
+  font-size: 14px;
+  color: #606266;
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+fieldset, img {
+  border: 0; }
+
+address, caption, cite, code, dfn, em, strong, th, var, i {
+  font-style: normal;
+  font-weight: normal; }
+
+ol, ul {
+  list-style: none; }
+
+th {
+  text-align: left; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 100%;
+  font-weight: normal; }
+
+q:before, q:after {
+  content: ' '; }
+
+a {
+  text-decoration:none;
+  cursor: pointer;}
+
+a:hover{
+  text-decoration:none;
+  outline:none}
+
+abbr, acronym {
+  border: 0; }
+
+*:focus {
+  outline: none; }
+
+.w {
+  width: 100%; }
+
+.h {
+  height: 100%; }
+
+.block {
+  display: block; }
+
+.none {
+  display: none; }
+
+.outText {
+  display: inline-block;
+  width: 5em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  vertical-align: middle; }
+
+.unselect {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  user-select: none; }
+
+.mr8 {margin-right: 8px;}
+.mr15 {margin-right: 15px;}
+.ml15 {margin-left: 15px;}
+.ptb15 {padding: 15px 0;}
+.ptb10 {padding: 10px 0;}
+.ptb5 {padding: 5px 0;}
+.pb15 {padding-bottom: 15px;}
+.pb10 {padding-bottom: 10px;}
+.pb5 {padding-bottom: 5px;}
+.mb6 {margin-bottom: 6px;}
+.mb5 {margin-bottom: 5px;}
+.mb10 {margin-bottom: 10px;}
+.mb15 {margin-bottom: 15px;}
+
+.list-a:link{
+	color:#20a0ff;
+}
+.list-a:visited{
+	color:#DCDCDC;
+}
+.search-label{
+  line-height: normal;
+  display: inline-table;
+  border-collapse: separate;
+  position: relative;
+  font-size: 14px;
+  width: 100%;
+}
+.search-label-prepend{
+  border-right: 0;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  background-color: #f5f7fa;
+  color: #878d99;
+  vertical-align: middle;
+  display: table-cell;
+  position: relative;
+  border: 1px solid #d8dce5;
+  border-radius: 4px;
+  padding: 0 20px;
+  width: 1px;
+  white-space: nowrap;
+}
+.search-label .el-date-editor{
+  float: left;
+  margin-left: -2px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.search-label .el-input__inner{
+  margin-left: -2px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.el-table__empty-block {
+  height: auto;
+}
+
+.search{
+  padding-bottom: 10px;
+  .search-item{
+    display: inline-block;
+    padding-bottom: 10px;
+    max-width: 260px;
+    padding-right: 10px;
+  }
+  .search-btn{
+    width: 130px;
+    padding-bottom: 10px;
+  }
+  .search-label{
+    color:#333333;
+    display: inline;
+    padding-right: 5px;
+  }
+  .search-input{
+    display: inline-block;
+  }
+  .search-right-btn{
+    float:right;
+    text-align:right;
+    padding-bottom: 10px;
+    margin-left:10px;
+    width: 120px;
+  }
+}
+
+/*********头像上传样式（单图片上传样式）start (element-ui)***********/
+.avatar-uploader .el-upload {
+  border: 1px dashed #d9d9d9;
+  border-radius: 6px;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+}
+.avatar-uploader .el-upload:hover {
+  border-color: #409EFF;
+}
+.avatar-uploader-icon {
+  font-size: 28px;
+  color: #8c939d;
+  width: 178px;
+  height: 178px;
+  line-height: 178px;
+  text-align: center;
+}
+.avatar {
+  width: 178px;
+  height: 178px;
+  display: block;
+}
+/*********头像上传样式（单图片上传样式）end***********/
+
+/*********transition style ***********/
+.myfade-enter-active {
+  transition: opacity .5s;
+}
+.myfade-leave-active {
+  opacity: 0;
+}
+.myfade-enter, .myfade-leave-to {
+  opacity: 0;
+}
+
+/*fade-transform*/
+.fade-transform-leave-active,.fade-transform-enter-active {
+  transition: all .4s;
+}
+.fade-transform-enter {
+  opacity: 0;
+  transform: translateX(-30px);
+}
+.fade-transform-leave-to {
+  opacity: 0;
+  transform: translateX(30px);
+}
+/*********transition style ***********/

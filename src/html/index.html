@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="renderer" content="webkit|ie-comp|ie-stand">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+	<meta http-equiv="Cache-Control" content="no-siteapp" />
+	<link rel="stylesheet" href="../../public/build/admin/vendor.css">
+</head>
+
+<script>
+	var Fragment = document.createDocumentFragment();
+	if (Fragment.createElement) {
+		alert("请用IE9及以上版本访问！");
+	}
+	window.base_url = "http://test.example.com/";
+	window._user = {
+		name: 'admin'
+	};
+	window._navData = [{
+			name: '首页',
+			menuid: '_admin_home',
+			active: '',
+			iconClass: 'home',
+			sort: 102,
+			routeName: 'adminHome',
+			path: '/admin/home',
+			dropdown: []
+		},
+		{
+			name: '主菜单1',
+			menuid: 'MainMenu',
+			active: '',
+			iconClass: 'user',
+			sort: 100,
+			path: '',
+			dropdown: [{
+					name: "子菜单1",
+					menuid: '_admin_submenu1',
+					active: '',
+					sort: 0,
+					routeName: 'submenuOne',
+					path: '/admin/submenuOne'
+				},
+				{
+					name: "子菜单2",
+					menuid: '_admin_submenu2',
+					active: '',
+					sort: 0,
+					routeName: 'submenuTwo',
+					path: '/admin/submenuTwo'
+				}
+			]
+		}
+	];
+</script>
+
+<body>
+	<div id="app">
+		<div class="el-loading-mask" style="display: block;">
+			<div class="el-loading-spinner">
+				<svg viewBox="25 25 50 50" class="circular">
+					<circle cx="50" cy="50" r="20" fill="none" class="path" />
+				</svg>
+				<p class="el-loading-text">拼命加载中</p>
+			</div>
+		</div>
+		<style>
+			#app {
+				height: 100%;
+			}
+
+			.loading {
+				width: 100%;
+				height: 70%;
+				display: table;
+				text-align: center;
+				background: #fff;
+			}
+
+			.loading span {
+				display: table-cell;
+				vertical-align: middle;
+			}
+		</style>
+	</div> 
+	<script src="../../public/build/admin/vendor.build.js"></script>
+	<script src="../../public/build/admin/main.build.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,65 @@
+
+.wangeditor .w-e-toolbar {
+  background-color: #FFFFFF !important;
+  border: 1px solid #D2D8DB !important;
+  border-bottom: none !important;
+}
+.wangeditor .w-e-text {
+  overflow: auto;
+}
+.wangeditor .w-e-text-container {
+  border: 1px solid #D2D8DB !important;
+}
+
+
+.mce-i-myemoticons:before {
+  content: "\E021";
+}
+.mce-i-myimage:before {
+  content: "\E014";
+}
+.mce-panel {
+  border: 0 solid #f3f3f3 !important;
+  border-bottom: 0 !important;
+}
+.mce-tinymce {
+  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0.2) !important;
+  -moz-box-shadow: 0 0 1px rgba(0, 0, 0, 0.2) !important;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.2) !important;
+}
+
+
+.ui_msg {
+    left: 50%;
+    text-align: center;
+    margin-top: 10%;
+    text-align: center;
+	color:#000;
+}
+.ui_msg .ui_icon_area {
+    margin-bottom: 2px;
+}
+.iconfont, em, i {
+    font-style: normal;
+}
+.ui_msg .ui_icon_area img {
+    width: 100px;
+    height: 100px;
+}
+img {
+    border: 0;
+    vertical-align: middle;
+    max-width: 100%;
+}
+.ui_msg .ui_text_area .ui_msg_title {
+    margin-bottom: 15px;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+
+.add-article .oneline {
+  margin-right: 80px;
+  float: left;
+}
+
