@@ -7,6 +7,8 @@ const personalInfo = () => import('../views/admin/PersonalInfo');
 const submenuOne = () => import('../views/example/submenuOne/list');
 //submenu2
 const submenuTwo = () => import('../views/example/submenuTwo/list');
+//submenu3
+const submenuThree = () => import('../views/example/submenuThree/list');
 
 const router = [
         { 
@@ -17,6 +19,7 @@ const router = [
                 { path: 'personalInfo',name:'personalInfo',component: personalInfo},
                 { path: 'submenuOne',name:'submenuOne',component: submenuOne},
                 { path: 'submenuTwo',name:'submenuTwo',component: submenuTwo},
+                { path: 'submenuThree',name:'submenuThree',component: submenuThree},
                 { path: 'notAccess',name:'notAccess',component: Error404, meta: { scrollToTop: true }},
                 { path: '*',name:'error',component: Error404, meta: { scrollToTop: true }}
             ]
