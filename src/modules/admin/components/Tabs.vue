@@ -28,6 +28,7 @@
 			//drag tab
 			let el = document.querySelectorAll('.tabs-sort .el-tabs__nav')[0];
 			let sortable = Sortable.create(el, {
+                                animation: 1000,
 				onEnd: (evt) => {
 					//change the value of index
 					let oldIndex = evt.oldIndex;
